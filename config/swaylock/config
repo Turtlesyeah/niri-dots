@@ -27,3 +27,11 @@ text-clear-color=f5e0dc
 text-caps-lock-color=fab387
 text-ver-color=89b4fa
 text-wrong-color=eba0ac
+indicator-radius=100
+image=/home/turtl/.config/astronaut.png
+effect-blur=30x20
+indicator-thickness=15
+indicator-idle-visible
+clock
+timestr=%I:%M
+datestr=
