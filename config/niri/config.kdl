@@ -636,6 +636,14 @@ spawn-sh-at-startup "waybar"
 spawn-sh-at-startup "alacritty"
 switch-events {
     lid-close {
-        spawn "swaylock"
+        spawn "bash" "-c" "swaylock & systemctl suspend-then-hibernate"
     }
+}
+layer-rule {
+    place-within-backdrop true
+}
+window-rule {
+	match app-id="chromium"
+
+	open-maximized true
 }
